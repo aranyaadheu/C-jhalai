@@ -6,9 +6,9 @@ int main() {
     scanf("%d %d", &x, &y);
 
     if(x == 2 * y){
-        printf("Yes");
+        printf("Yes\n");
     } else{
-        printf("No");
+        printf("No\n");
     }
     
 }

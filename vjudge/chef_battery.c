@@ -3,6 +3,7 @@
 int main(){
     int T;
     scanf("%d", &T);
+    
     while(T--){
         int N, time = 0;
         scanf("%d", &N);

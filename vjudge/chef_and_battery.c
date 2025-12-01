@@ -12,14 +12,12 @@ int main(){
         }
         else if(N>50){
             if(N-50 % 2 == 0){
-                
                 m = (N - 50);
                 FR = m/2;
                 printf("%d\n", FR);
             }
             
-            else if((N-50) % 3 == 0){
-                
+            else if((N-50) % 3 == 0){   
                 m = (N-50) / 3;
                 printf("%d\n", m);
             }
