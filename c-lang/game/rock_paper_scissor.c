@@ -46,7 +46,6 @@ int main(){
 
     checkWinner(userChoice, computerChoice);
 
-
     return 0;
 }
 int getComputerChoice(){
