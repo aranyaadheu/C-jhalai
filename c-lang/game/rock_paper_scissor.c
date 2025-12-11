@@ -18,7 +18,6 @@ int main(){
     int userChoice = getUserChoice();
     int computerChoice = getComputerChoice();
 
-
     switch(userChoice){
         case 1:
             printf("You chose ROCK\n");
