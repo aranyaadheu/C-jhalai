@@ -17,9 +17,42 @@ int main()
 
     // finding length using strlen
 
-    char text[] = "C programming";
+    /*char text[] = "C programming";
     int len = strlen(text);
-    printf("Length: %d", len);
+    printf("Length: %d", len);*/
+
+    // copying a string u/ strcpy
+
+    /*char src[] = "Hello";
+
+    char dest[20];
+
+    strcpy(dest, src);
+    printf("Copied string: %s\n", dest);
+    */
+
+    // concatenating strings (strcat)
+
+    /*char first[20] = "Hello ";
+    char second[] = "world!";
+
+    strcat(first, second);
+    printf("%s\n", first); 
+    */
+
+    // comparing two strings
+
+    char a[] = "apple";
+    char b[] = "banana";
+
+    if(strcmp(a, b) == 0)
+    {
+        printf("Strings are equal\n");
+    }
+    else
+    {
+        printf("Strings are not equal\n");
+    }
 
     return 0;
 }

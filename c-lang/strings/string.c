@@ -46,22 +46,22 @@ int main(){
         n++;
     }
     printf("Length using loop is: %d\n", n);
-
+*/
     // string adding one with another
 
-    strcat(ch2, "Karim");
+    strcat(ch2, ch3);
     printf("ch2 array after using strcat fucntion: %s\n", ch2);
-*/
+
     // swap string
 
-    char temp[20];
+/*    char temp[20];
     strcpy(temp, ch2);
     strcpy(ch2, ch3);
     strcpy(ch3, temp);
     printf("First ch array after swap: %s\n", ch2);
     printf("Second ch array after swap:  %s\n", ch3);
 
-
+*/
 
     return 0;
 }
